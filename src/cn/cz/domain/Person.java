@@ -8,6 +8,11 @@ public class Person {
     private int id;
     private String name;
 
+    public String a;
+    protected String b;
+    String c;
+    private String d;
+
     public Person(){}
 
     public Person(int id, String name) {
@@ -29,5 +34,17 @@ public class Person {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", a='" + a + '\'' +
+                ", b='" + b + '\'' +
+                ", c='" + c + '\'' +
+                ", d='" + d + '\'' +
+                '}';
     }
 }
