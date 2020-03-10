@@ -36,6 +36,14 @@ public class Person {
         this.name = name;
     }
 
+    public void eat(){
+        System.out.println("吃");
+    }
+
+    private void eat(String food){
+        System.out.println("吃" + food);
+    }
+
     @Override
     public String toString() {
         return "Person{" +
