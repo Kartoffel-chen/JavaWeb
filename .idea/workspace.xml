@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b6dd6778-d080-4bf7-b15c-9c4dac7c2423" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyNode/反射.md" beforeDir="false" afterPath="$PROJECT_DIR$/StudyNode/反射.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaWeb/cn/cz/domain/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWeb/cn/cz/domain/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/cz/domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/cz/domain/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +137,8 @@
       <option name="presentableId" value="Default" />
       <updated>1583757020633</updated>
       <workItem from="1583757023040" duration="7709000" />
-      <workItem from="1583801372033" duration="14277000" />
+      <workItem from="1583801372033" duration="14821000" />
+      <workItem from="1583893540222" duration="23400000" />
     </task>
     <servers />
   </component>
@@ -163,22 +161,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="574" y="151" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1583766549829" />
-    <state width="1493" height="134" key="GridCell.Tab.0.bottom" timestamp="1583814695607">
+    <state width="1493" height="134" key="GridCell.Tab.0.bottom" timestamp="1583821379902">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="134" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583814695607" />
-    <state width="1493" height="134" key="GridCell.Tab.0.center" timestamp="1583814695606">
+    <state width="1493" height="134" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583821379902" />
+    <state width="1493" height="134" key="GridCell.Tab.0.center" timestamp="1583821379902">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="134" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1583814695606" />
-    <state width="1493" height="134" key="GridCell.Tab.0.left" timestamp="1583814695606">
+    <state width="1493" height="134" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1583821379902" />
+    <state width="1493" height="134" key="GridCell.Tab.0.left" timestamp="1583821379902">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="134" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1583814695606" />
-    <state width="1493" height="134" key="GridCell.Tab.0.right" timestamp="1583814695607">
+    <state width="1493" height="134" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1583821379902" />
+    <state width="1493" height="134" key="GridCell.Tab.0.right" timestamp="1583821379902">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="134" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583814695607" />
+    <state width="1493" height="134" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583821379902" />
+    <state x="34" y="0" key="SettingsEditor" timestamp="1583821290386">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="34" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1583821290386" />
     <state x="485" y="333" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583757628640">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
