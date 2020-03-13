@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b6dd6778-d080-4bf7-b15c-9c4dac7c2423" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyNode/数据库.md" beforeDir="false" afterPath="$PROJECT_DIR$/StudyNode/数据库.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +53,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.CalculateTest">
     <configuration name="CalculateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -139,6 +144,15 @@
       <workItem from="1583757023040" duration="7709000" />
       <workItem from="1583801372033" duration="14821000" />
       <workItem from="1583893540222" duration="23400000" />
+      <workItem from="1583973699577" duration="5115000" />
+      <workItem from="1584005112802" duration="1395000" />
+      <workItem from="1584006557372" duration="1436000" />
+      <workItem from="1584011374676" duration="66000" />
+      <workItem from="1584011524379" duration="126000" />
+      <workItem from="1584011682189" duration="31000" />
+      <workItem from="1584011739676" duration="1347000" />
+      <workItem from="1584013119271" duration="1510000" />
+      <workItem from="1584014690890" duration="2644000" />
     </task>
     <servers />
   </component>
@@ -157,10 +171,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="411" y="90" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1583757110450" />
+    <state x="521" y="273" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1584013762457">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="521" y="273" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.864@0.0.1536.864" timestamp="1584013762457" />
     <state x="574" y="151" key="#com.intellij.ide.util.MemberChooser" timestamp="1583766549829">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="574" y="151" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1583766549829" />
+    <state x="565" y="190" key="FileChooserDialogImpl" timestamp="1584013720314">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="565" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1584013720314" />
     <state width="1493" height="134" key="GridCell.Tab.0.bottom" timestamp="1583821379902">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -177,13 +199,21 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="134" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583821379902" />
-    <state x="34" y="0" key="SettingsEditor" timestamp="1583821290386">
+    <state x="311" y="93" width="992" height="707" key="SettingsEditor" timestamp="1584014630579">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="34" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1583821290386" />
+    <state x="311" y="93" width="992" height="707" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1584014630579" />
     <state x="485" y="333" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583757628640">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="485" y="333" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.864@0.0.1536.864" timestamp="1583757628640" />
+    <state x="421" y="86" width="671" height="660" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1584012490591">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="421" y="86" width="671" height="660" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.864@0.0.1536.864" timestamp="1584012490591" />
+    <state x="866" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1584011710772">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="866" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1584011710772" />
   </component>
 </project>
