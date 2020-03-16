@@ -5,13 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6dd6778-d080-4bf7-b15c-9c4dac7c2423" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyNode/JDBC.md" beforeDir="false" afterPath="$PROJECT_DIR$/StudyNode/JDBC.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyNode/事务.md" beforeDir="false" afterPath="$PROJECT_DIR$/StudyNode/事务.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyNode/数据库.md" beforeDir="false" afterPath="$PROJECT_DIR$/StudyNode/数据库.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="JavaWeb" />
@@ -37,6 +52,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -44,6 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,15 +70,23 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
-  <component name="RunManager" selected="Application.CalculateTest">
-    <configuration name="CalculateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.cz.annotation.CalculateTest" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Data\JavaWeb\lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Data\JavaWeb\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SelectDemo">
+    <configuration name="DeleteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cz.jdbc.DeleteDemo" />
       <module name="JavaWeb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.cz.annotation.*" />
+          <option name="PATTERN" value="cn.cz.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PropertiesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.cz.reflection.PropertiesTest" />
+    <configuration name="InsertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cz.jdbc.InsertDemo" />
       <module name="JavaWeb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.cz.reflection.*" />
+          <option name="PATTERN" value="cn.cz.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.cz.reflection.ReflectionDemo" />
+    <configuration name="JDBCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cz.jdbc.JDBCDemo" />
       <module name="JavaWeb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.cz.reflection.*" />
+          <option name="PATTERN" value="cn.cz.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.cz.reflection.ReflectionDemo01" />
+    <configuration name="SelectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cz.jdbc.SelectDemo" />
       <module name="JavaWeb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.cz.reflection.*" />
+          <option name="PATTERN" value="cn.cz.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.cz.reflection.ReflectionDemo02" />
+    <configuration name="UpdateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cz.jdbc.UpdateDemo" />
       <module name="JavaWeb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.cz.reflection.*" />
+          <option name="PATTERN" value="cn.cz.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CalculateTest" />
-        <item itemvalue="Application.PropertiesTest" />
-        <item itemvalue="Application.ReflectionDemo02" />
-        <item itemvalue="Application.ReflectionDemo01" />
-        <item itemvalue="Application.ReflectionDemo" />
+        <item itemvalue="Application.SelectDemo" />
+        <item itemvalue="Application.DeleteDemo" />
+        <item itemvalue="Application.UpdateDemo" />
+        <item itemvalue="Application.InsertDemo" />
+        <item itemvalue="Application.JDBCDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +178,11 @@
       <workItem from="1584011739676" duration="1347000" />
       <workItem from="1584013119271" duration="1510000" />
       <workItem from="1584014690890" duration="2644000" />
+      <workItem from="1584080441153" duration="211000" />
+      <workItem from="1584080705557" duration="777000" />
+      <workItem from="1584081522212" duration="2637000" />
+      <workItem from="1584318627862" duration="5498000" />
+      <workItem from="1584361820828" duration="7623000" />
     </task>
     <servers />
   </component>
@@ -171,6 +201,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="411" y="90" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1583757110450" />
+    <state x="361" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584331436035">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1584331436035" />
     <state x="521" y="273" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1584013762457">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -183,26 +217,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="565" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1584013720314" />
-    <state width="1493" height="134" key="GridCell.Tab.0.bottom" timestamp="1583821379902">
+    <state width="970" height="85" key="GridCell.Tab.0.bottom" timestamp="1584371252172">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="134" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583821379902" />
-    <state width="1493" height="134" key="GridCell.Tab.0.center" timestamp="1583821379902">
+    <state width="970" height="85" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584371252172" />
+    <state width="970" height="85" key="GridCell.Tab.0.center" timestamp="1584371252172">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="134" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1583821379902" />
-    <state width="1493" height="134" key="GridCell.Tab.0.left" timestamp="1583821379902">
+    <state width="970" height="85" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584371252172" />
+    <state width="970" height="85" key="GridCell.Tab.0.left" timestamp="1584371252172">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="134" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1583821379902" />
-    <state width="1493" height="134" key="GridCell.Tab.0.right" timestamp="1583821379902">
+    <state width="970" height="85" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584371252172" />
+    <state width="970" height="85" key="GridCell.Tab.0.right" timestamp="1584371252172">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="134" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583821379902" />
-    <state x="311" y="93" width="992" height="707" key="SettingsEditor" timestamp="1584014630579">
+    <state width="970" height="85" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584371252172" />
+    <state x="388" y="75" width="992" height="707" key="SettingsEditor" timestamp="1584081245900">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="311" y="93" width="992" height="707" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1584014630579" />
+    <state x="388" y="75" width="992" height="707" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1584081245900" />
     <state x="485" y="333" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583757628640">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -215,5 +249,16 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="866" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1584011710772" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/cz/jdbc/DeleteDemo.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
