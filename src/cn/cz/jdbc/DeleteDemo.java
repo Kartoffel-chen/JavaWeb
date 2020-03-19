@@ -1,7 +1,8 @@
 package cn.cz.jdbc;
 
+import cn.cz.utils.JdbcUtils;
+
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -15,10 +16,11 @@ public class DeleteDemo {
         Statement statement = null;
 
         try {
-            // 注册驱动
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            // 获取数据库连接
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/db","root","1414524058");
+//            // 注册驱动
+//            Class.forName("com.mysql.cj.jdbc.Driver");
+//            // 获取数据库连接
+//            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/db","root","1414524058");
+            Connection connection1 = JdbcUtils.getConnection();
             // sql语句
             String sql = "delete from stu where id = 3";
             // 获取执行sql对象
@@ -31,26 +33,25 @@ public class DeleteDemo {
             }else{
                 System.out.println("执行失败");
             }
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
         } catch (SQLException e) {
             e.printStackTrace();
         }finally{
-            //判断空指针
-            if(statement!= null){
-                try {
-                    statement.close();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
-            }
-            if(connection!= null){
-                try {
-                    connection.close();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
-            }
+//            //判断空指针
+//            if(statement!= null){
+//                try {
+//                    statement.close();
+//                } catch (SQLException e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//            if(connection!= null){
+//                try {
+//                    connection.close();
+//                } catch (SQLException e) {
+//                    e.printStackTrace();
+//                }
+//            }
+            JdbcUtils.close(statement,connection);
 
         }
 
