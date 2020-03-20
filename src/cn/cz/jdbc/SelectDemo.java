@@ -25,7 +25,7 @@ public class SelectDemo {
             // 执行语句
             resultSet = statement.executeQuery(sql);
 
-            while (resultSet.next()){
+            while (resultSet.next()) {
                 int id = resultSet.getInt(1);
                 String name = resultSet.getString(2);
                 int age = resultSet.getInt(3);
