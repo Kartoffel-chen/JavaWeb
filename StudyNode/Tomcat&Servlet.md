@@ -86,3 +86,7 @@
             3. 复写方法
             4. 在类上使用@WebServlet注解,进行配置
                 * @WebServlet("资源路径");
+## IDEA与tomcat的相关配置
+1. IDEA会为每个tomcat部署的项目单独建立一份配置
+2. 工作空间项目和tomcat部署的web项目
+    * 

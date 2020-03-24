@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaWeb.iml" filepath="$PROJECT_DIR$/JavaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Login_test/Login_test.iml" filepath="$PROJECT_DIR$/Login_test/Login_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/tomcat_JavaWeb/tomcat_JavaWeb.iml" filepath="$PROJECT_DIR$/tomcat_JavaWeb/tomcat_JavaWeb.iml" />
     </modules>
   </component>
