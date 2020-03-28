@@ -1,4 +1,4 @@
-package request;
+package cn.cz.request;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -6,15 +6,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.Enumeration;
-import java.util.Map;
-import java.util.Set;
 
 /**
  * @author Kartoffel
  * @create 2020-03-23-11:40
  */
-@WebServlet("/request")
+@WebServlet("/cn/cz/request")
 public class requestDemo extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
