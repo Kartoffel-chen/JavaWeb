@@ -25,28 +25,15 @@ public class LoginServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //设置字符集
         request.setCharacterEncoding("utf-8");
-//
-//        //获取请求
-//        String userName = request.getParameter("userName");
-//        String password = request.getParameter("passWord");
-//
-//        //封装User
-//        User loginUser = new User();
-//        loginUser.setUserName(userName);
-//        loginUser.setPassword(password);
 
-        // 获取所有参数
-        Map<String, String[]> map = request.getParameterMap();
-        // 创建user对象
+        //获取请求
+        String userName = request.getParameter("userName");
+        String password = request.getParameter("passWord");
+
+        //封装User
         User loginUser = new User();
-        // 使用BeanUtils封装
-        try {
-            BeanUtils.populate(loginUser,map);
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
-            e.printStackTrace();
-        }
+        loginUser.setUserName(userName);
+        loginUser.setPassword(password);
 
         //调用UserDao中的Login方法
         UserDao dao = new UserDao();

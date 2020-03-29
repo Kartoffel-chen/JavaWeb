@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>登陆测试</title>
+    <script src="javascript/CheckCode.js"></script>
 </head>
 <body>
-    <form action="/Login_test/loginServlet" method="get">
+    <form action="/test/loginServlet" method="get">
         <input type="text" placeholder="请输入用户名" name="userName"><br>
         <input type="text" placeholder="请输入密码" name="passWord"><br>
+        <img id="checkCode" src="/test/CheckCode">
+        <a id="checkCodeA" href="#">看不清换一张?</a><br>
         <input type="submit" value="登陆">
     </form>
 </body>
