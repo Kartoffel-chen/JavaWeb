@@ -14,7 +14,7 @@ public class LoginTest {
     public void login(){
         User user = new User();
         user.setUserName("baby");
-        user.setPassword("1414524058");
+        user.setPassWord("1414524058");
 
         UserDao ud = new UserDao();
         User uu = ud.login(user);

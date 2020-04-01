@@ -52,4 +52,8 @@ public class JdbcUtil {
     public static DataSource getDataSource(){
         return ds;
     }
+
+    public static void close(Connection connection,DataSource dataSource){
+
+    }
 }

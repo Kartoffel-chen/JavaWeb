@@ -28,7 +28,7 @@ public class UserDao {
         try {
             //编写sql
             String sql = "select * from user where username = ? and password = ?";
-            User user = template.queryForObject(sql, new BeanPropertyRowMapper<User>(User.class), loginUser.getUserName(), loginUser.getPassword());
+            User user = template.queryForObject(sql, new BeanPropertyRowMapper<User>(User.class), loginUser.getUserName(), loginUser.getPassWord());
             return user;
         } catch (DataAccessException e) {
             return null;

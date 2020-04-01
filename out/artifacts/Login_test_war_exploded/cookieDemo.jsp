@@ -1,32 +1,16 @@
-package cn.cz.web.servlet;
+<%@ page import="cn.cz.domain.User" %>
+<%@ page import="java.net.URLDecoder" %>
+<%@ page import="java.util.Date" %>
+<%@ page import="java.text.SimpleDateFormat" %>
+<%@ page import="java.net.URLEncoder" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-import cn.cz.domain.User;
-
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.xml.crypto.Data;
-import java.io.IOException;
-import java.net.URLDecoder;
-import java.net.URLEncoder;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
-/**
- * @author Kartoffel
- * @create 2020-03-24-11:54
- */
-@WebServlet("/successServlet")
-public class SuccessServlet extends HttpServlet {
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //设置响应字符集
-        response.setContentType("text/html;charset=utf-8");
-        //获取request域中共享的数据
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+    <%
         User user = (User) request.getAttribute("user");
         //打印输出
         if (user != null) {
@@ -83,11 +67,6 @@ public class SuccessServlet extends HttpServlet {
 
 
         }
-    }
-
-    @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-        this.doPost(request, response);
-    }
-}
+    %>
+</body>
+</html>

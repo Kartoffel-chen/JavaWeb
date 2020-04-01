@@ -34,6 +34,7 @@
                 
             3. 相应空行
             4. 相应体
+            
 ## Response对象
     1. 功能: 设置相应消息
         1. 设置相应行
@@ -98,3 +99,42 @@
                 2. 输出数据
                     sos.write("巴拉巴啦");
         4. 验证码案例
+        
+## ServletContext对象
+    1. 概念: 代表整个web应用,可以和程序的容器(服务器)来通信  
+    2. 获取:
+        1. 通过request对象获取
+            requset.getServletContext();
+        2. 通过httpServlet 
+            this.getServletContext();
+    2. 功能
+        1. 获取mime类型 : 
+            * MIME类型: 在互联网通信过程中定义的一种文件数据类型
+                * 格式 : 大类型/小类型 text/html  image/jpeg
+            * 获取: String getMimeType(String file);
+        2. 域对象 : 共享数据
+            1. setAttribute(String name , Object value);
+            2. getAttribute(String name);
+            3. removeAttribute(String name)
+            
+            * ServletContext对象范围 : 所有用户所请求的数据
+             
+        3. 获取文件的真实(服务器)路径
+            1. 方法: String getRealPath(String path);
+            
+## 案例
+    * 文件下载需求: 
+        1. 页面显示超连接
+        2. 点击超链接后弹出下载提示框
+        2. 完成图片文件下载 
+        
+    * 分析 : 
+        1. 使用响应头设置资源的打开方式:
+            * content-disposition:attachment;filename=xxx
+    * 步骤 : 
+        1. 定义页面,编辑超链接herf属性,指向servlet,传递资源名称filename
+        2. 定义Servlet
+            1. 获取文件名称
+            2. 使用字节输入流加载文件进内存
+            3. 指定response的响应头: content-disposition:attachment;filename=xxx
+            4. 将数据写出到response输出流 
