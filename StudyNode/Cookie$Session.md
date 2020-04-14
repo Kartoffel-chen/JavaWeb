@@ -104,6 +104,3 @@
                 * response.getWriter()和out.write()的区别 : 
                     * 在tomcat服务器真正给客户端做出响应之前,会先找response缓冲区数据,在找out缓冲器数据
                     * response.getWriter()数据输出永远在out.write()之前
-                    
-## 案例 : 验证码
-    1. 

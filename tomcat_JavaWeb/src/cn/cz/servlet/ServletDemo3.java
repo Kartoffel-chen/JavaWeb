@@ -18,14 +18,14 @@ public class ServletDemo3 extends HttpServlet {
     /**
      *  1. 获取请求方式 : GET
      *      * String getMethod()
-     *  2. (*)获取虚拟目录 : /test
+     *  2. (*)获取虚拟目录 :
      *      * String getContextPath()
      *  3. 获取Servlet路径 : /demo
      *      * String getServletPath()
      *  4. 获取get方法请求参数 : name=zhanshang
      *      * String getQuestString()
      *  5. (*)获取请求URI,URL
-     *      * String getRequestURI() : /test/demo
+     *      * String getRequestURI() :
      *      * StringBuffer getRequestURL : http://localhost/test/demo
      *  6. 获取协议版本 : HTTP/1.1
      *      * String getProtocol()
